@@ -1,0 +1,48 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 10px;
+}
+
+.header {
+    width: 100%;
+    height: 120px; 
+    background: linear-gradient(to right, #5D26C1, #a17fe0, #59C173); 
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
+    width: 200px;
+    height: 100%;
+}
+
+.img {
+    height: 100%;
+    width: 100%;
+}
+.navba {
+    width: 500px;
+    height: 50px;
+    border: 1px solid #22297ffa;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    gap: 70px;
+    padding: 15px;
+    justify-content: center;
+    font-weight: bold; 
+}
+
+
